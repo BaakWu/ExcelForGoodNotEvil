@@ -1,0 +1,48 @@
+
+Hi Alan,
+
+We just got from the Department of Transportation and we need you to import
+the data of their accident reports over the last 3 years. Here is the data
+spec of the CSV. File that they sent over to us.
+
+Column Name Data Value Comments
+LIGHT_CODE number (decimal) Whether the light was red, green or red
+COUNTY_NO number  (whole) County designation
+MUNI_CODE number  (whole) Municipality of accident
+JUNCTION_CODE number  (whole) Junction designation
+COLLISION_TYPE_CODE number  (whole) Type of collision
+LANE_CODE number  (whole) Which lane the accident occurred
+RD_COND_CODE number  (whole) What type of road (dirt, tarmac)
+RD_DIV_CODE number  (whole) What type of divider on the road (concrete,
+steel, none)
+FIX_OBJ_CODE number  (whole) Types of fixed objects on the road
+REPORT_NO Text Report ID
+REPORT_TYPE Text Description of Accident
+ACC_DATE Date What date the accident occurred
+ACC_TIME Time Time of Accident
+LOC_CODE Text Location ID
+SIGNAL_FLAG Y/N Whether a signal was made by the car
+C_M_ZONE_FLAG Y/N Whether the zone was valid
+AGENCY_CODE Text Which agency has jurisdiction
+AREA_CODE Text Area Code
+HARM_EVENT_CODE1 number  (whole) Type of personal injury sustained
+HARM_EVENT_CODE2 number  (whole) Second type of personal injury sustained
+RTE_NO number  (whole) Route number
+ROUTE_TYPE_CODE Text Route number
+RTE_SUFFIX Character The route suffix
+LOG_MILE number (decimal) Miles logged
+LOGMILE_DIR_FLAG Character Type of Miles logged
+MAINROAD_NAME Text Name of main road
+DISTANCE Number(whole) Distance span of accident
+FEET_MILES_FLAG Character Type of distance whether it is feet or miles
+DISTANCE_DIR_FLAG Character Direction of accident facing
+REFERENCE_NO number(whole) Reference ID
+REFERENCE_TYPE_CODE Text Type of reference
+REFERENCE_SUFFIX Character Suffix of reference
+REFERENCE_ROAD_NAME Text Road name of the reference
+LATITUDE number (decimal) Latitude of Accident
+LONGITUDE number (decimal) Longitude of Accident
+
+We need to get this into our system for blah blah data analysis, blah blah
+big data. ect.
+
